@@ -1,0 +1,575 @@
+RUNNING: alpha_optimization_master(filename=optimization5_run3log.txt,step_attempts=[ 40  50  60  70  80  90 100],ic_attempts=[0.75],learn_rate=0.5,tol=0.0001)
+
+---------------------------------------------------STEPS: 40---------------------------------------------------
+
+alpha_init: 0.75
+RUNNING: alpha_optimization(<_io.TextIOWrapper name='optimization5_run3log.txt' mode='w+' encoding='UTF-8'>,0.75,40,1.0,0.0001)
+
+Current alpha: 0.7750000000
+Mesh Stats: dx=0.20000, dt=0.18856
+
+RUNNING: solve_fokkerplanck(0.775,400,2001,113.13708499,600)
+
+Current alpha: 0.7500000000
+Mesh Stats: dx=0.20000, dt=0.18856
+RUNNING: solve_fokkerplanck(0.75,400,2001,113.13708499,600)
+Gradient: 0.00744142262303
+Functional: 0.00114953149659
+
+Current alpha: 0.7425585774
+Mesh Stats: dx=0.20000, dt=0.18856
+RUNNING: solve_fokkerplanck(0.742558577377,400,2001,113.13708499,600)
+Gradient: 0.00128462053849
+Functional: 0.00112533622378
+
+Current alpha: 0.7412739568
+Mesh Stats: dx=0.20000, dt=0.18856
+RUNNING: solve_fokkerplanck(0.741273956838,400,2001,113.13708499,600)
+Gradient: 0.000151644949299
+Functional: 0.00112485658853
+
+Getting closer to the minimum. Decreasing learning rate.
+Current alpha: 0.7411223119
+Mesh Stats: dx=0.20000, dt=0.18856
+RUNNING: solve_fokkerplanck(0.741122311889,400,2001,113.13708499,600)
+Gradient: 2.070889469e-06
+Functional: 0.00112486985132
+---------------------------------------------------FINAL ALPHA: 0.7411223119---------------------------------------------------
+
+RUNNING: alpha_optimization(<_io.TextIOWrapper name='optimization5_run3log.txt' mode='w+' encoding='UTF-8'>,0.741122311889,40,0.5,0.0001)
+
+Current alpha: 0.7670100807
+Mesh Stats: dx=0.10000, dt=0.09428
+
+RUNNING: solve_fokkerplanck(0.7670100807,400,4001,113.13708499,1200)
+
+Current alpha: 0.7411223119
+Mesh Stats: dx=0.10000, dt=0.09428
+RUNNING: solve_fokkerplanck(0.741122311889,400,4001,113.13708499,1200)
+Gradient: 0.000884412811896
+Functional: 0.00111903455931
+
+Current alpha: 0.7406801055
+Mesh Stats: dx=0.10000, dt=0.09428
+RUNNING: solve_fokkerplanck(0.740680105483,400,4001,113.13708499,1200)
+Gradient: -0.000665283850523
+Functional: 0.00111933297903
+
+Current alpha: 0.7410127474
+Mesh Stats: dx=0.10000, dt=0.09428
+RUNNING: solve_fokkerplanck(0.741012747408,400,4001,113.13708499,1200)
+Gradient: -0.000487961344546
+Functional: 0.00111909688083
+
+Current alpha: 0.7412567281
+Mesh Stats: dx=0.10000, dt=0.09428
+RUNNING: solve_fokkerplanck(0.741256728081,400,4001,113.13708499,1200)
+Gradient: -0.000327907070959
+Functional: 0.00111896857442
+
+Current alpha: 0.7414206816
+Mesh Stats: dx=0.10000, dt=0.09428
+RUNNING: solve_fokkerplanck(0.741420681616,400,4001,113.13708499,1200)
+Gradient: -0.000219178121918
+Functional: 0.00111890373115
+
+Current alpha: 0.7415302707
+Mesh Stats: dx=0.10000, dt=0.09428
+RUNNING: solve_fokkerplanck(0.741530270677,400,4001,113.13708499,1200)
+Gradient: -0.000146350368031
+Functional: 0.00111886998627
+
+Getting closer to the minimum. Decreasing learning rate.
+Current alpha: 0.7416034459
+Mesh Stats: dx=0.10000, dt=0.09428
+RUNNING: solve_fokkerplanck(0.741603445861,400,4001,113.13708499,1200)
+Gradient: -9.76664255286e-05
+Functional: 0.00111885174037
+---------------------------------------------------FINAL ALPHA: 0.7416034459---------------------------------------------------
+Optimization time in seconds: 32015.718003988266
+
+---------------------------------------------------STEPS: 50---------------------------------------------------
+
+alpha_init: 0.75
+RUNNING: alpha_optimization(<_io.TextIOWrapper name='optimization5_run3log.txt' mode='w+' encoding='UTF-8'>,0.75,50,1.0,0.0001)
+
+Current alpha: 0.7750000000
+Mesh Stats: dx=0.20000, dt=0.18856
+
+RUNNING: solve_fokkerplanck(0.775,400,2001,141.421356237,750)
+
+Current alpha: 0.7500000000
+Mesh Stats: dx=0.20000, dt=0.18856
+RUNNING: solve_fokkerplanck(0.75,400,2001,141.421356237,750)
+Gradient: -0.00144928190598
+Functional: 0.00100467136849
+
+Current alpha: 0.7514492819
+Mesh Stats: dx=0.20000, dt=0.18856
+RUNNING: solve_fokkerplanck(0.751449281906,400,2001,141.421356237,750)
+Gradient: -0.001745595987
+Functional: 0.0010012819374
+
+Current alpha: 0.7531948779
+Mesh Stats: dx=0.20000, dt=0.18856
+RUNNING: solve_fokkerplanck(0.753194877893,400,2001,141.421356237,750)
+Gradient: -0.000498189197786
+Functional: 0.000999202787016
+
+Current alpha: 0.7536930671
+Mesh Stats: dx=0.20000, dt=0.18856
+RUNNING: solve_fokkerplanck(0.753693067091,400,2001,141.421356237,750)
+Gradient: -7.06789546965e-05
+Functional: 0.000999015977583
+---------------------------------------------------FINAL ALPHA: 0.7536930671---------------------------------------------------
+
+RUNNING: alpha_optimization(<_io.TextIOWrapper name='optimization5_run3log.txt' mode='w+' encoding='UTF-8'>,0.753693067091,50,0.5,0.0001)
+
+Current alpha: 0.7783237604
+Mesh Stats: dx=0.10000, dt=0.09428
+
+RUNNING: solve_fokkerplanck(0.778323760382,400,4001,141.421356237,1500)
+
+Current alpha: 0.7536930671
+Mesh Stats: dx=0.10000, dt=0.09428
+RUNNING: solve_fokkerplanck(0.753693067091,400,4001,141.421356237,1500)
+Gradient: 0.000975346969214
+Functional: 0.000993920970151
+
+Current alpha: 0.7532053936
+Mesh Stats: dx=0.10000, dt=0.09428
+RUNNING: solve_fokkerplanck(0.753205393606,400,4001,141.421356237,1500)
+Gradient: -0.000734131176466
+Functional: 0.00099427538245
+
+Current alpha: 0.7535724592
+Mesh Stats: dx=0.10000, dt=0.09428
+RUNNING: solve_fokkerplanck(0.753572459194,400,4001,141.421356237,1500)
+Gradient: -0.000508034864889
+Functional: 0.000993992401986
+
+Current alpha: 0.7538264766
+Mesh Stats: dx=0.10000, dt=0.09428
+RUNNING: solve_fokkerplanck(0.753826476627,400,4001,141.421356237,1500)
+Gradient: -0.000315554939812
+Functional: 0.000993854397476
+
+Current alpha: 0.7539842541
+Mesh Stats: dx=0.10000, dt=0.09428
+RUNNING: solve_fokkerplanck(0.753984254097,400,4001,141.421356237,1500)
+Gradient: -0.000194372359973
+Functional: 0.000993792554889
+
+Getting closer to the minimum. Decreasing learning rate.
+Current alpha: 0.7540814403
+Mesh Stats: dx=0.10000, dt=0.09428
+RUNNING: solve_fokkerplanck(0.754081440277,400,4001,141.421356237,1500)
+Gradient: -0.00011954101537
+Functional: 0.000993763583091
+
+Getting closer to the minimum. Decreasing learning rate.
+Current alpha: 0.7541412108
+Mesh Stats: dx=0.10000, dt=0.09428
+RUNNING: solve_fokkerplanck(0.754141210784,400,4001,141.421356237,1500)
+Gradient: -7.34658455325e-05
+Functional: 0.000993749222167
+---------------------------------------------------FINAL ALPHA: 0.7541412108---------------------------------------------------
+Optimization time in seconds: 46578.317766189575
+
+---------------------------------------------------STEPS: 60---------------------------------------------------
+
+alpha_init: 0.75
+RUNNING: alpha_optimization(<_io.TextIOWrapper name='optimization5_run3log.txt' mode='w+' encoding='UTF-8'>,0.75,60,1.0,0.0001)
+
+Current alpha: 0.7750000000
+Mesh Stats: dx=0.20000, dt=0.18856
+
+RUNNING: solve_fokkerplanck(0.775,400,2001,169.705627485,900)
+
+Current alpha: 0.7500000000
+Mesh Stats: dx=0.20000, dt=0.18856
+RUNNING: solve_fokkerplanck(0.75,400,2001,169.705627485,900)
+Gradient: -0.00909534752648
+Functional: 0.000989564279851
+
+Current alpha: 0.7590953475
+Mesh Stats: dx=0.20000, dt=0.18856
+RUNNING: solve_fokkerplanck(0.759095347526,400,2001,169.705627485,900)
+Gradient: -0.00364652055735
+Functional: 0.000927348480765
+
+Current alpha: 0.7627418681
+Mesh Stats: dx=0.20000, dt=0.18856
+RUNNING: solve_fokkerplanck(0.762741868084,400,2001,169.705627485,900)
+Gradient: -0.000497973905904
+Functional: 0.00092030772397
+
+Current alpha: 0.7632398420
+Mesh Stats: dx=0.20000, dt=0.18856
+RUNNING: solve_fokkerplanck(0.76323984199,400,2001,169.705627485,900)
+Gradient: 8.19162563926e-05
+Functional: 0.000920180466646
+---------------------------------------------------FINAL ALPHA: 0.7632398420---------------------------------------------------
+
+RUNNING: alpha_optimization(<_io.TextIOWrapper name='optimization5_run3log.txt' mode='w+' encoding='UTF-8'>,0.76323984199,60,0.5,0.0001)
+
+Current alpha: 0.7869158578
+Mesh Stats: dx=0.10000, dt=0.09428
+
+RUNNING: solve_fokkerplanck(0.786915857791,400,4001,169.705627485,1800)
+
+Current alpha: 0.7632398420
+Mesh Stats: dx=0.10000, dt=0.09428
+RUNNING: solve_fokkerplanck(0.76323984199,400,4001,169.705627485,1800)
+Gradient: 0.00124490823061
+Functional: 0.000915610154733
+
+Current alpha: 0.7626173879
+Mesh Stats: dx=0.10000, dt=0.09428
+RUNNING: solve_fokkerplanck(0.762617387874,400,4001,169.705627485,1800)
+Gradient: -0.000691811497441
+Functional: 0.000916003331792
+
+Current alpha: 0.7629632936
+Mesh Stats: dx=0.10000, dt=0.09428
+RUNNING: solve_fokkerplanck(0.762963293623,400,4001,169.705627485,1800)
+Gradient: -0.000461760785632
+Functional: 0.000915745654021
+
+Current alpha: 0.7631941740
+Mesh Stats: dx=0.10000, dt=0.09428
+RUNNING: solve_fokkerplanck(0.763194174016,400,4001,169.705627485,1800)
+Gradient: -0.000265710437588
+Functional: 0.000915628202634
+
+Current alpha: 0.7633270292
+Mesh Stats: dx=0.10000, dt=0.09428
+RUNNING: solve_fokkerplanck(0.763327029235,400,4001,169.705627485,1800)
+Gradient: -0.000150847468689
+Functional: 0.000915580459143
+
+Getting closer to the minimum. Decreasing learning rate.
+Current alpha: 0.7634024530
+Mesh Stats: dx=0.10000, dt=0.09428
+RUNNING: solve_fokkerplanck(0.763402452969,400,4001,169.705627485,1800)
+Gradient: -8.54440967167e-05
+Functional: 0.000915559814608
+---------------------------------------------------FINAL ALPHA: 0.7634024530---------------------------------------------------
+Optimization time in seconds: 56730.41456222534
+
+---------------------------------------------------STEPS: 70---------------------------------------------------
+
+alpha_init: 0.75
+RUNNING: alpha_optimization(<_io.TextIOWrapper name='optimization5_run3log.txt' mode='w+' encoding='UTF-8'>,0.75,70,1.0,0.0001)
+
+Current alpha: 0.7750000000
+Mesh Stats: dx=0.20000, dt=0.18856
+
+RUNNING: solve_fokkerplanck(0.775,400,2001,197.989898732,1050)
+
+Current alpha: 0.7500000000
+Mesh Stats: dx=0.20000, dt=0.18856
+RUNNING: solve_fokkerplanck(0.75,400,2001,197.989898732,1050)
+Gradient: -0.015723617147
+Functional: 0.00104624754614
+
+Current alpha: 0.7657236171
+Mesh Stats: dx=0.20000, dt=0.18856
+RUNNING: solve_fokkerplanck(0.765723617147,400,2001,197.989898732,1050)
+Gradient: -0.00477260337993
+Functional: 0.000880550397801
+
+Current alpha: 0.7704962205
+Mesh Stats: dx=0.20000, dt=0.18856
+RUNNING: solve_fokkerplanck(0.770496220527,400,2001,197.989898732,1050)
+Gradient: -0.000149380835541
+Functional: 0.000870285176367
+
+Getting closer to the minimum. Decreasing learning rate.
+Current alpha: 0.7706456014
+Mesh Stats: dx=0.20000, dt=0.18856
+RUNNING: solve_fokkerplanck(0.770645601362,400,2001,197.989898732,1050)
+Gradient: 0.00026033542194
+Functional: 0.000870289482282
+
+Current alpha: 0.7703852659
+Mesh Stats: dx=0.20000, dt=0.18856
+RUNNING: solve_fokkerplanck(0.770385265941,400,2001,197.989898732,1050)
+Gradient: 5.01782810511e-05
+Functional: 0.0008702949944
+---------------------------------------------------FINAL ALPHA: 0.7703852659---------------------------------------------------
+
+RUNNING: alpha_optimization(<_io.TextIOWrapper name='optimization5_run3log.txt' mode='w+' encoding='UTF-8'>,0.770385265941,70,0.5,0.0001)
+
+Current alpha: 0.7933467393
+Mesh Stats: dx=0.10000, dt=0.09428
+
+RUNNING: solve_fokkerplanck(0.793346739346,400,4001,197.989898732,2100)
+
+Current alpha: 0.7703852659
+Mesh Stats: dx=0.10000, dt=0.09428
+RUNNING: solve_fokkerplanck(0.770385265941,400,4001,197.989898732,2100)
+Gradient: 0.00126025389634
+Functional: 0.000866243540115
+
+Current alpha: 0.7697551390
+Mesh Stats: dx=0.10000, dt=0.09428
+RUNNING: solve_fokkerplanck(0.769755138992,400,4001,197.989898732,2100)
+Gradient: -0.000796911527036
+Functional: 0.000866699523801
+
+Current alpha: 0.7701535948
+Mesh Stats: dx=0.10000, dt=0.09428
+RUNNING: solve_fokkerplanck(0.770153594756,400,4001,197.989898732,2100)
+Gradient: -0.000500299663948
+Functional: 0.000866369784122
+
+Current alpha: 0.7704037446
+Mesh Stats: dx=0.10000, dt=0.09428
+RUNNING: solve_fokkerplanck(0.770403744588,400,4001,197.989898732,2100)
+Gradient: -0.000266348679663
+Functional: 0.000866235548816
+
+Current alpha: 0.7705369189
+Mesh Stats: dx=0.10000, dt=0.09428
+RUNNING: solve_fokkerplanck(0.770536918928,400,4001,197.989898732,2100)
+Gradient: -0.000139167809477
+Functional: 0.000866187049244
+
+Getting closer to the minimum. Decreasing learning rate.
+Current alpha: 0.7706065028
+Mesh Stats: dx=0.10000, dt=0.09428
+RUNNING: solve_fokkerplanck(0.770606502832,400,4001,197.989898732,2100)
+Gradient: -7.24632512776e-05
+Functional: 0.000866168065649
+---------------------------------------------------FINAL ALPHA: 0.7706065028---------------------------------------------------
+Optimization time in seconds: 78755.74457287788
+
+---------------------------------------------------STEPS: 80---------------------------------------------------
+
+alpha_init: 0.75
+RUNNING: alpha_optimization(<_io.TextIOWrapper name='optimization5_run3log.txt' mode='w+' encoding='UTF-8'>,0.75,80,1.0,0.0001)
+
+Current alpha: 0.7750000000
+Mesh Stats: dx=0.20000, dt=0.18856
+
+RUNNING: solve_fokkerplanck(0.775,400,2001,226.27416998,1200)
+
+Current alpha: 0.7500000000
+Mesh Stats: dx=0.20000, dt=0.18856
+RUNNING: solve_fokkerplanck(0.75,400,2001,226.27416998,1200)
+Gradient: -0.0215099933191
+Functional: 0.00114430468189
+
+Current alpha: 0.7715099933
+Mesh Stats: dx=0.20000, dt=0.18856
+RUNNING: solve_fokkerplanck(0.771509993319,400,2001,226.27416998,1200)
+Gradient: -0.0053423249433
+Functional: 0.000851413297546
+
+Current alpha: 0.7768523183
+Mesh Stats: dx=0.20000, dt=0.18856
+RUNNING: solve_fokkerplanck(0.776852318262,400,2001,226.27416998,1200)
+Gradient: 0.000376942976083
+Functional: 0.000840572172596
+
+Current alpha: 0.7764753753
+Mesh Stats: dx=0.20000, dt=0.18856
+RUNNING: solve_fokkerplanck(0.776475375286,400,2001,226.27416998,1200)
+Gradient: 0.000377648301353
+Functional: 0.000840438813851
+
+Current alpha: 0.7760977270
+Mesh Stats: dx=0.20000, dt=0.18856
+RUNNING: solve_fokkerplanck(0.776097726985,400,2001,226.27416998,1200)
+Gradient: 8.41867589278e-06
+Functional: 0.000840444439892
+---------------------------------------------------FINAL ALPHA: 0.7760977270---------------------------------------------------
+
+RUNNING: alpha_optimization(<_io.TextIOWrapper name='optimization5_run3log.txt' mode='w+' encoding='UTF-8'>,0.776097726985,80,0.5,0.0001)
+
+Current alpha: 0.7984879543
+Mesh Stats: dx=0.10000, dt=0.09428
+
+RUNNING: solve_fokkerplanck(0.798487954287,400,4001,226.27416998,2400)
+
+Current alpha: 0.7760977270
+Mesh Stats: dx=0.10000, dt=0.09428
+RUNNING: solve_fokkerplanck(0.776097726985,400,4001,226.27416998,2400)
+Gradient: 0.00129511207828
+Functional: 0.000836818512612
+
+Current alpha: 0.7754501709
+Mesh Stats: dx=0.10000, dt=0.09428
+RUNNING: solve_fokkerplanck(0.775450170946,400,4001,226.27416998,2400)
+Gradient: -0.000888763727268
+Functional: 0.000837335075165
+
+Current alpha: 0.7758945528
+Mesh Stats: dx=0.10000, dt=0.09428
+RUNNING: solve_fokkerplanck(0.775894552809,400,4001,226.27416998,2400)
+Gradient: -0.000526670407648
+Functional: 0.000836936820055
+
+Current alpha: 0.7761578880
+Mesh Stats: dx=0.10000, dt=0.09428
+RUNNING: solve_fokkerplanck(0.776157888013,400,4001,226.27416998,2400)
+Gradient: -0.000258948472805
+Functional: 0.000836791182076
+
+Current alpha: 0.7762873622
+Mesh Stats: dx=0.10000, dt=0.09428
+RUNNING: solve_fokkerplanck(0.77628736225,400,4001,226.27416998,2400)
+Gradient: -0.000124035007144
+Functional: 0.000836744316614
+
+Getting closer to the minimum. Decreasing learning rate.
+Current alpha: 0.7763493798
+Mesh Stats: dx=0.10000, dt=0.09428
+RUNNING: solve_fokkerplanck(0.776349379753,400,4001,226.27416998,2400)
+Gradient: -5.90925041041e-05
+Functional: 0.000836727655619
+---------------------------------------------------FINAL ALPHA: 0.7763493798---------------------------------------------------
+Optimization time in seconds: 111437.43468523026
+
+---------------------------------------------------STEPS: 90---------------------------------------------------
+
+alpha_init: 0.75
+RUNNING: alpha_optimization(<_io.TextIOWrapper name='optimization5_run3log.txt' mode='w+' encoding='UTF-8'>,0.75,90,1.0,0.0001)
+
+Current alpha: 0.7750000000
+Mesh Stats: dx=0.20000, dt=0.18856
+
+RUNNING: solve_fokkerplanck(0.775,400,2001,254.558441227,1350)
+
+Current alpha: 0.7500000000
+Mesh Stats: dx=0.20000, dt=0.18856
+RUNNING: solve_fokkerplanck(0.75,400,2001,254.558441227,1350)
+Gradient: -0.0265943741908
+Functional: 0.00126643744899
+
+Current alpha: 0.7765943742
+Mesh Stats: dx=0.20000, dt=0.18856
+RUNNING: solve_fokkerplanck(0.776594374191,400,2001,254.558441227,1350)
+Gradient: -0.00549763501271
+Functional: 0.000835522208536
+
+Current alpha: 0.7820920092
+Mesh Stats: dx=0.20000, dt=0.18856
+RUNNING: solve_fokkerplanck(0.782092009204,400,2001,254.558441227,1350)
+Gradient: 0.000978139322286
+Functional: 0.000826303585128
+
+Current alpha: 0.7811138699
+Mesh Stats: dx=0.20000, dt=0.18856
+RUNNING: solve_fokkerplanck(0.781113869881,400,2001,254.558441227,1350)
+Gradient: 0.000400882157187
+Functional: 0.000825663810528
+
+Current alpha: 0.7807129877
+Mesh Stats: dx=0.20000, dt=0.18856
+RUNNING: solve_fokkerplanck(0.780712987724,400,2001,254.558441227,1350)
+Gradient: -5.91969518019e-05
+Functional: 0.000825691519798
+---------------------------------------------------FINAL ALPHA: 0.7807129877---------------------------------------------------
+
+RUNNING: alpha_optimization(<_io.TextIOWrapper name='optimization5_run3log.txt' mode='w+' encoding='UTF-8'>,0.780712987724,90,0.5,0.0001)
+
+Current alpha: 0.8026416890
+Mesh Stats: dx=0.10000, dt=0.09428
+
+RUNNING: solve_fokkerplanck(0.802641688952,400,4001,254.558441227,2700)
+
+Current alpha: 0.7807129877
+Mesh Stats: dx=0.10000, dt=0.09428
+RUNNING: solve_fokkerplanck(0.780712987724,400,4001,254.558441227,2700)
+Gradient: 0.00130593943006
+Functional: 0.000822434380921
+
+Current alpha: 0.7800600180
+Mesh Stats: dx=0.10000, dt=0.09428
+RUNNING: solve_fokkerplanck(0.780060018009,400,4001,254.558441227,2700)
+Gradient: -0.000992405172222
+Functional: 0.000823014132498
+
+Current alpha: 0.7805562206
+Mesh Stats: dx=0.10000, dt=0.09428
+RUNNING: solve_fokkerplanck(0.780556220595,400,4001,254.558441227,2700)
+Gradient: -0.000554047762255
+Functional: 0.000822533211178
+
+Current alpha: 0.7808332445
+Mesh Stats: dx=0.10000, dt=0.09428
+RUNNING: solve_fokkerplanck(0.780833244476,400,4001,254.558441227,2700)
+Gradient: -0.000250676274196
+Functional: 0.000822375906427
+
+Current alpha: 0.7809585826
+Mesh Stats: dx=0.10000, dt=0.09428
+RUNNING: solve_fokkerplanck(0.780958582613,400,4001,254.558441227,2700)
+Gradient: -0.000109372962324
+Functional: 0.000822331008405
+
+Getting closer to the minimum. Decreasing learning rate.
+Current alpha: 0.7810132691
+Mesh Stats: dx=0.10000, dt=0.09428
+RUNNING: solve_fokkerplanck(0.781013269095,400,4001,254.558441227,2700)
+Gradient: -4.73112092285e-05
+Functional: 0.000822316557431
+---------------------------------------------------FINAL ALPHA: 0.7810132691---------------------------------------------------
+Optimization time in seconds: 126107.90844202042
+
+---------------------------------------------------STEPS: 100---------------------------------------------------
+
+alpha_init: 0.75
+RUNNING: alpha_optimization(<_io.TextIOWrapper name='optimization5_run3log.txt' mode='w+' encoding='UTF-8'>,0.75,100,1.0,0.0001)
+
+Current alpha: 0.7750000000
+Mesh Stats: dx=0.20000, dt=0.18856
+
+RUNNING: solve_fokkerplanck(0.775,400,2001,282.842712475,1500)
+
+Current alpha: 0.7500000000
+Mesh Stats: dx=0.20000, dt=0.18856
+RUNNING: solve_fokkerplanck(0.75,400,2001,282.842712475,1500)
+Gradient: -0.0310861898276
+Functional: 0.00140203188054
+
+Current alpha: 0.7810861898
+Mesh Stats: dx=0.20000, dt=0.18856
+RUNNING: solve_fokkerplanck(0.781086189828,400,2001,282.842712475,1500)
+Gradient: -0.00533343947918
+Functional: 0.000830415655943
+
+Current alpha: 0.7864196293
+Mesh Stats: dx=0.20000, dt=0.18856
+RUNNING: solve_fokkerplanck(0.786419629307,400,2001,282.842712475,1500)
+Gradient: 0.00158789056012
+Functional: 0.00082419514957
+
+Current alpha: 0.7848317387
+Mesh Stats: dx=0.20000, dt=0.18856
+RUNNING: solve_fokkerplanck(0.784831738747,400,2001,282.842712475,1500)
+Gradient: 0.000324164560269
+Functional: 0.000822773357267
+
+Current alpha: 0.7845075742
+Mesh Stats: dx=0.20000, dt=0.18856
+RUNNING: solve_fokkerplanck(0.784507574186,400,2001,282.842712475,1500)
+Gradient: -0.000129448532625
+Functional: 0.000822829223944
+
+Getting closer to the minimum. Decreasing learning rate.
+Current alpha: 0.7846370227
+Mesh Stats: dx=0.20000, dt=0.18856
+RUNNING: solve_fokkerplanck(0.784637022719,400,2001,282.842712475,1500)
+Gradient: -1.85708609613e-05
+Functional: 0.000822792944467
+---------------------------------------------------FINAL ALPHA: 0.7846370227---------------------------------------------------
+
+RUNNING: alpha_optimization(<_io.TextIOWrapper name='optimization5_run3log.txt' mode='w+' encoding='UTF-8'>,0.784637022719,100,0.5,0.0001)
+
+Current alpha: 0.8061733204
+Mesh Stats: dx=0.10000, dt=0.09428
+
+RUNNING: solve_fokkerplanck(0.806173320447,400,4001,282.842712475,3000)
